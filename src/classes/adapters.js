@@ -1,8 +1,8 @@
 class ApiAdapter {
 
     constructor() { 
-        this.backend = "http://localhost:5000" 
-        this.baseUrl = "http://localhost:5000" 
+        this.backend = "https://brickit-backend.herokuapp.com/" 
+        this.baseUrl = "https://brickit-backend.herokuapp.com/" 
         this.rebrickableBaseUrl = "https://rebrickable.com/api/v3/lego/"
         
         //AUTHENTICATION HEADER FOR FETCH REQUESTS TO LOCAL API.
